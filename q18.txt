@@ -1,0 +1,7 @@
+a queue can be implemented in circular array.
+we take two pointers one is front and another
+is rear to indicate the position.
+
+the formula we will be using is 
+no. of element= (rear-front+n)%n
+we added +n because we dont want negative results.
